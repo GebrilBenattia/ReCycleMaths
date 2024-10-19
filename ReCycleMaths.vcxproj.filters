@@ -14,4 +14,7 @@
   <ItemGroup>
     <ClCompile Include="Code\Source\main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
 </Project>
