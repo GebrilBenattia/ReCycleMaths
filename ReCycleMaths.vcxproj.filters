@@ -1,26 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Code">
-      <UniqueIdentifier>{83996a9a-296f-4993-a2b7-6f92e2956c44}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Code\Source">
-      <UniqueIdentifier>{d52f4788-9089-4cf9-9cd0-a164624ef7e1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Code\Include">
-      <UniqueIdentifier>{e7f4d069-a7b8-433e-8953-33ee6ef083a2}</UniqueIdentifier>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-<<<<<<< Updated upstream
     <ClCompile Include="Code\Source\main.cpp" />
-=======
-    <None Include="packages.config" />
+    <ClCompile Include="Code\Source\Vector2\Vector2.cpp" />
+    <ClCompile Include="Code\Source\Vector3\Vector3.cpp" />
+    <ClCompile Include="Code\Source\Vector4\Vector4.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Code\Source\main.cpp">
-      <Filter>Code\Source</Filter>
-    </ClCompile>
->>>>>>> Stashed changes
+    <ClInclude Include="Code\Include\Vector2\Vector2.hpp" />
+    <ClInclude Include="Code\Include\Vector3\Vector3.hpp" />
+    <ClInclude Include="Code\Include\Vector4\Vector4.hpp" />
+    <ClInclude Include="Code\Include\Utils\MathsUtils.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Code\Include\Vector2\Vector2.inl" />
+    <None Include="Code\Include\Vector3\Vector3.inl" />
+    <None Include="Code\Include\Vector4\Vector4.inl" />
   </ItemGroup>
 </Project>
